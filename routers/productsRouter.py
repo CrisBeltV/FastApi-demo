@@ -14,4 +14,3 @@ async def products():
 @router.get("/{id}")
 async def products(id : int):
     return products_list[id]
-+
